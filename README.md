@@ -18,4 +18,4 @@ Da unser Team aus zwei Personen besteht, die kein IT-Wissen mitbringen, mussten 
 
 ## Screenshots
 ![image](Screenshots/AndereRäume.png)
-![image](Screenshots/Ausgabe%20Temperatur.png.png)
+![image](Screenshots/Ausgabe%20Temperatur.png)
