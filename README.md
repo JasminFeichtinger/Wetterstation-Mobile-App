@@ -17,14 +17,14 @@ Da unser Team aus zwei Personen besteht, die kein IT-Wissen mitbringen, mussten 
  - https://www.udemy.com/course/nativescript-angular-build-native-ios-android-web-app [November 2022]
 
 ## Screenshots
-Icon der App “SensorApp”:
-![image](Screenshots/Open%20App.png)
-Start der App
-Last Measurements - gibt die letzten Messwerte von jedem Sensor zurück:
-![image](Screenshots/Startseite.png)
-Graphen - Linearer Graph mit den Temperaturen der letzten 24 Stunden, der letzten sieben Tage und der letzten 30 Tage:
-![image](Screenshots/Liniendiagramm.png)
-Latest Measurements - Ausgabe der letzten zehn Messwerte von jedem Sensor:
-![image](Screenshots/AndereRäume.png)
-Nach Auswahl eines Sensors:
-![image](Screenshots/Ausgabe%20Temperatur.png)
+Icon der App “SensorApp”: \n
+![image](Screenshots/Open%20App.png) \n
+Start der App \n
+Last Measurements - gibt die letzten Messwerte von jedem Sensor zurück: \n
+![image](Screenshots/Startseite.png) \n
+Graphen - Linearer Graph mit den Temperaturen der letzten 24 Stunden, der letzten sieben Tage und der letzten 30 Tage: \n
+![image](Screenshots/Liniendiagramm.png) \n
+Latest Measurements - Ausgabe der letzten zehn Messwerte von jedem Sensor: \n
+![image](Screenshots/AndereRäume.png) \n
+Nach Auswahl eines Sensors: \n
+![image](Screenshots/Ausgabe%20Temperatur.png) 
