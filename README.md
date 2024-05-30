@@ -17,7 +17,7 @@ Da unser Team aus zwei Personen besteht, die kein IT-Wissen mitbringen, mussten 
  - https://www.udemy.com/course/nativescript-angular-build-native-ios-android-web-app [November 2022]
 
 ## Screenshots
-Icon der App “SensorApp”: \\
+Icon der App “SensorApp”:\
 ![image](Screenshots/Open%20App.png) \n
 Start der App \n
 Last Measurements - gibt die letzten Messwerte von jedem Sensor zurück: \n
