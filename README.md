@@ -17,4 +17,4 @@ Da unser Team aus zwei Personen besteht, die kein IT-Wissen mitbringen, mussten 
  - https://www.udemy.com/course/nativescript-angular-build-native-ios-android-web-app [November 2022]
 
 ## Screenshots
-![Image](Screenshots/Open App.png)
+![image](Screenshots/AndereRäume.png)
