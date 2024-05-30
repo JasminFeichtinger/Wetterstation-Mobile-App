@@ -1,0 +1,31 @@
+<FlexboxLayout flexDirection="column" justifyContent="space-around" width="100%" alignContent="space-around">
+
+    <Label class="flexHeader" text="Last measurement"></Label>
+    <FlexboxLayout class="flexWrapper">
+        <FlexboxLayout class="flex" width="30%">
+            <Label textWrap="true" class="temp-hum desc" *ngFor="let pair of latestTempArray"> <!--Repeat for each measurement in Array latestTempArray-->
+                <FormattedString>
+                    <Span text="Sensor name\n"></Span>
+                    <Span text="Timestamp\n"></Span>
+                    <Span text="Temperature\n"></Span>
+                    <Span text="Humidity"></Span>
+                </FormattedString>
+            </Label>
+            <hr>
+        </FlexboxLayout>
+
+        <FlexboxLayout class="flex" width="70%">
+            <Label textWrap="true" class="temp-hum" *ngFor="let pair of latestTempArray"> <!--Repeat for each measurement in Array latestTempArray-->
+                <FormattedString>
+                    <Span [text]="pair.sensor.name+'\r\n'"></Span>
+                    <Span [text]="pair.timeStamp+'\r\n'"></Span>
+                    <Span [text]="pair.temperature+'°C\r\n'"></Span>
+                    <Span [text]="pair.humidity+'%'"></Span>
+                </FormattedString>
+            </Label>
+        </FlexboxLayout>
+
+
+
+    </FlexboxLayout>
+</FlexboxLayout>

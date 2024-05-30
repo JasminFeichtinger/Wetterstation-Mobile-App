@@ -1,0 +1,35 @@
+<FlexboxLayout flexDirection="column" width="100%">
+
+    <!--Chart for the last 24 hours-->
+    <Label class="flexHeader" text="Charts"></Label>
+    <Label text="The last 24 hours:"></Label>
+
+    <RadCartesianChart class="chart" tkExampleTitle tkToggleNavButton>
+        <CategoricalAxis tkCartesianHorizontalAxis>
+        </CategoricalAxis>
+        <LinearAxis tkCartesianVerticalAxis></LinearAxis>
+        <LineSeries tkCartesianSeries [items]="returnValuesForChart(1)" categoryProperty="timeStamp"
+            valueProperty="temperature"></LineSeries>
+    </RadCartesianChart>
+
+    <!--Chart for the last 7 days -->
+    <Label text="The last 7 days:"></Label>
+    <RadCartesianChart class="chart" tkExampleTitle tkToggleNavButton>
+        <DateTimeCategoricalAxis tkCartesianHorizontalAxis dateFormat="dd.MM">
+        </DateTimeCategoricalAxis>
+        <LinearAxis tkCartesianVerticalAxis></LinearAxis>
+        <LineSeries tkCartesianSeries [items]="returnValuesForChart(7)" categoryProperty="timeStamp"
+            valueProperty="temperature"></LineSeries>
+    </RadCartesianChart>
+
+    <!--Chart for the last 30 days-->
+    <Label text="The last 30 days:"></Label>
+    <RadCartesianChart class="chart" tkExampleTitle tkToggleNavButton>
+        <DateTimeCategoricalAxis tkCartesianHorizontalAxis dateFormat="dd.MM">
+        </DateTimeCategoricalAxis>
+        <LinearAxis tkCartesianVerticalAxis></LinearAxis>
+        <LineSeries tkCartesianSeries [items]="returnValuesForChart(30)" categoryProperty="timeStamp"
+            valueProperty="temperature"></LineSeries>
+    </RadCartesianChart>
+
+</FlexboxLayout>

@@ -1,0 +1,16 @@
+<StackLayout backgroundColor="#3c495e">
+  <Label class="flexHeader" text="Latest measurements"></Label>
+  <Label [text]="'Latest ten measurements from: '+sensorName" style="color:white"></Label>
+  <FlexboxLayout class="flexWrapper">
+    <!--Output each sensor as button you click-->
+    <FlexboxLayout class="flex">
+      <Button class="btn" *ngFor="let sensor of storeService.sensoren" [text]="sensor.name"
+        (tap)="outputSensor(sensor.id)"></Button>
+    </FlexboxLayout>
+    <!--Ouput measurement for sensor-->
+    <FlexboxLayout class="flex">
+      <Label class="temp" *ngFor="let measure of measurements"
+        [text]="'Temperature: '+measure.temperature+'°C  Humidity: '+measure.humidity+'% '" height="30"></Label>
+    </FlexboxLayout>
+  </FlexboxLayout>
+</StackLayout>

@@ -1,0 +1,27 @@
+/*to get different colour on click */
+Button:highlighted{
+    background-color: rgb(224, 133, 22);
+}
+/*Button style */
+.btn {
+    width: 30%;
+    height: 170px;
+    margin-bottom: 5px;
+}
+
+.flexBoxWrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+/*Style of measurements output*/
+.temp{
+    margin: 25px 5px 5px 5px;
+    background-color: bisque;
+    border-radius: 2%;
+    width: 60%;
+}
