@@ -3,7 +3,7 @@ Jasmin Feichtinger und Martin Pressl
 ## Technische Beschreibung
 Es handelt sich um eine NativeScript App, die mit Angular erstellt wurde. NativeScript ist ein Open-Source-Framework, das für die Entwicklung von Apps auf iOS und Android eingesetzt wird. Als Programmiersprachen werden JavaScript und TypeScript eingesetzt. Wenn man NativeScript verwendet, wird nicht mit HTML gearbeitet, sondern mit XML. Angular ist ein Front-End-Webapplikationsframework, welches mit einer Sammlung von integrierten Bibliotheken eine Vielzahl von Funktionen abdeckt.
 Als Mobile Phone haben wir uns für Android Studio entschieden. Hierbei handelt es sich um eine Entwicklungsumgebung von Google die für die Entwicklung von Android Software gedacht ist.
-Die App erhält die Daten von unserem erstellten Backend. Hierbei greift das Frontend auf die API-Schnittstelle über den Port 8082 zu. Wir haben folgendes Backend verwendet:/
+Die App erhält die Daten von unserem erstellten Backend. Hierbei greift das Frontend auf die API-Schnittstelle über den Port 8082 zu. Wir haben folgendes Backend verwendet:
 https://github.com/JasminFeichtinger/Wetterstation-Backend.git
 
 ## Pitfalls
